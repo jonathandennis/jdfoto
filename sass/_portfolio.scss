@@ -1,0 +1,336 @@
+.portfolio {
+    background-color: $color-grey-light-1;
+    margin: 0;
+    padding: 7rem 0;
+
+    grid-column: 1 /-1;
+
+    display:grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 6rem;
+    justify-content: space-between;
+
+    &__portraits {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative; 
+
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;        
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;
+            
+        }
+
+        &--title {
+            font-size: 11rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%; 
+            //position: absolute;
+            //left: 2%;
+            //top: 10%; 
+                               
+        }
+
+        &--cta {
+            //position: absolute;
+            font-size: 4rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+            //left: 20%;
+            //top: 60%;
+        }
+
+        &--img {
+            height: 90vh;
+        }
+
+    }
+
+    &__portraits-artist {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative; 
+
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;
+
+            /* as seen on medium to try and implement scroll
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: white;
+            height: 90vh;//height: 600px; (or whatever you want it to be)
+            width: 100%;//width: 100%; (I have this inside of a container that takes up 90% of the screen)
+            overflow-x: scroll; //(or: auto) */     
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;            
+        }
+
+        &--title {
+            font-size: 9rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%; 
+            //position: absolute;
+            //left: 2%;
+            //top: 10%; 
+            opacity: 75%;                    
+        }
+
+        &--cta {
+            //position: absolute;
+            font-size: 3.5rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+            //left: 20%;
+            //top: 60%;
+        }
+
+        &--img {
+            height: 90vh;
+        }
+    }
+
+    &__architecture {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative;
+        
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;            
+        }
+
+        &--title {
+            font-size: 11rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%;                    
+        }
+
+        &--cta {
+            font-size: 3rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+        }
+        
+        &--img {
+            height: 90vh;
+        }
+    }
+
+    &__stills {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative;
+        
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;            
+        }
+
+        &--title {
+            font-size: 11rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%;                    
+        }
+
+        &--cta {
+            font-size: 3rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+        }
+        
+        &--img {
+            height: 90vh;
+        }
+    }
+
+    &__landscape {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative;
+        
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;            
+        }
+
+        &--title {
+            font-size: 11rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%;                    
+        }
+
+        &--cta {
+            font-size: 3rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+        }
+        
+        &--img {
+            height: 90vh;
+        }
+    }
+
+    &__motion {
+        height: 100vh; // test
+        width: 100vw;
+        padding: 3rem 4%;
+        position: relative;
+        
+        &--scroll {
+            display: grid;
+            grid-template-columns: repeat(6, max-content);
+            justify-content: space-between;
+            grid-gap: 2rem;
+        }
+
+        &--overlay {
+            position:absolute;
+            left: 4%;
+            top: 3rem;
+            height: 90vh;
+            width: 96vw;
+            background: linear-gradient(
+                to right,
+                rgba(black, 0.6),
+                rgba(black, 0.6));
+            z-index: 5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15%;            
+        }
+
+        &--title {
+            font-size: 11rem;
+            font-family: "Frontage-Outline";
+            opacity: 75%;                    
+        }
+
+        &--cta {
+            font-size: 3rem; 
+            font-weight: 700;
+            text-transform: uppercase;
+            opacity: 35%;
+        }
+        
+        &--video {
+            height: 90vh;
+        }
+    }
+}
