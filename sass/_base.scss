@@ -8,7 +8,7 @@ $color-grey-light-1: #f9f7f6;
 $color-grey-light-2: #aaa;
 $color-grey-1: rgb(117, 117, 117);
 
-$color-grey-dark-1: #54483A;
+$color-grey-dark-1: #666666;
 $color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
@@ -46,12 +46,12 @@ body {
 //Grid
 
 .container {
-    display: grid;
-    grid-template-rows: 0rem 100vh max-content 50vh 30vh;
+    /* display: grid;
+    grid-template-rows: 0rem 100vh max-content 50vh 30vh 20vh;
     position: absolute;
     
 
     //& > * {  // use for development for initial layout to be removed
     //    padding: 40px;
-    //    font-size: 3rem;
+    //    font-size: 3rem; */
 }
