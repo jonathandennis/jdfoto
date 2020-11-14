@@ -112,14 +112,12 @@ nav {
   margin-top: 5rem; }
 
 .portfolio {
-  padding: 0rem 0 3rem 4%;
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
   background-color: #f9f7f6;
-  height: 100vh;
-  width: 100%;
-  overflow-x: scroll; }
+  padding: 0rem 0 3rem 4%; }
+  .portfolio__carousel {
+    display: flex;
+    height: 100vh;
+    overflow-x: scroll; }
   .portfolio__overlay {
     position: absolute;
     left: 4%;
@@ -166,15 +164,16 @@ nav {
       color: black;
       opacity: 10%;
       margin: 1.8rem 0 0 6rem; }
-  .portfolio__images {
-    display: grid;
-    grid-template-columns: repeat(6, max-content);
-    justify-content: space-between;
-    grid-gap: 2rem; }
   .portfolio__img {
-    height: 85vh; }
+    height: 85vh;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    margin-right: 3rem; }
   .portfolio__video {
-    height: 85vh; }
+    height: 85vh;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    margin-right: 3rem; }
 
 /* 
     &__portraits {
