@@ -1,6 +1,6 @@
 .portfolios {
     background-color: $color-grey-light-1;
-    margin-top: 5rem;
+    margin-top: 7rem;
     //padding: 7rem 0;
 
     //grid-column: 1 /-1;
@@ -13,11 +13,14 @@
 
 .portfolio {
     background-color: $color-grey-light-1;
-    padding: 0rem 0 3rem 4%;
+    padding: 0rem 1% 0rem 4%;
+    height: 97vh;
 
         &__carousel {
         display: flex;
-        height: 100vh;//height: 600px; (or whatever you want    ito be)
+        align-items: center;
+
+        height: 85%;//height: 600px; (or whatever you want    ito be)
         //width: 100%;//width: 100%; (I have this inside of   container that takes up 90% of the screen)
         overflow-x: scroll; //(or: auto)
         } 
@@ -63,13 +66,16 @@
     
         &__header {
             display: flex; 
-            margin-left: 3%; 
+            margin-left: 3%;
+            height: 9rem; 
         
             &--title {
                 font-size: 6rem;
                 font-family: "Frontage-Outline";
                 color: black;
                 opacity: 35%;
+                position: relative;
+                padding-top: 1rem;
                 //display: inline-block;
             
             }
@@ -79,6 +85,8 @@
                 font-family: "Frontage-Outline";
                 color: black;
                 opacity: 35%;
+                padding-top: 1rem;
+                
             }
             
             &--cta {
@@ -87,8 +95,9 @@
                 text-transform: uppercase;
                 color: black;
                 opacity: 10%;
-                margin: 1.8rem 0 0 6rem;
+                padding: 2.8rem 0 0 6rem;
                 //display: inline-block;
+                
             }
         }
     
@@ -99,316 +108,15 @@
             //grid-gap: 2rem;
         }
         &__img {
-            height: 85vh;
+            height: 75vh;
             flex-wrap: nowrap;
             flex: 0 0 auto;
             margin-right: 3rem;
         }
         &__video {
-            height: 85vh;
+            height: 75vh;
             flex-wrap: nowrap;
             flex: 0 0 auto;
             margin-right: 3rem;
         }
 }
-/* 
-    &__portraits {
-
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;        
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;
-            
-        }
-
-        &--title {
-            font-size: 11rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%; 
-            //position: absolute;
-            //left: 2%;
-            //top: 10%; 
-                               
-        }
-
-        &--cta {
-            //position: absolute;
-            font-size: 4rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-            //left: 20%;
-            //top: 60%;
-        }
-
-        &--img {
-            height: 90vh;
-        }
-
-    }
-
-    &__portraits-artist {
-
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;
-
-            /* as seen on medium to try and implement scroll
-            display: flex;
-            flex-wrap: nowrap;
-            background-color: white;
-            height: 90vh;//height: 600px; (or whatever you want it to be)
-            width: 100%;//width: 100%; (I have this inside of a container that takes up 90% of the screen)
-            overflow-x: scroll; //(or: auto)      
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;            
-        }
-
-        &--title {
-            font-size: 9rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%; 
-            //position: absolute;
-            //left: 2%;
-            //top: 10%; 
-            opacity: 75%;                    
-        }
-
-        &--cta {
-            //position: absolute;
-            font-size: 3.5rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-            //left: 20%;
-            //top: 60%;
-        }
-
-        &--img {
-            height: 90vh;
-        }
-    }
-
-    &__architecture {
-        
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;            
-        }
-
-        &--title {
-            font-size: 11rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%;                    
-        }
-
-        &--cta {
-            font-size: 3rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-        }
-        
-        &--img {
-            height: 90vh;
-        }
-    }
-
-    &__stills {
-        
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;            
-        }
-
-        &--title {
-            font-size: 11rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%;                    
-        }
-
-        &--cta {
-            font-size: 3rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-        }
-        
-        &--img {
-            height: 90vh;
-        }
-    }
-
-    &__landscape {
-        
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;            
-        }
-
-        &--title {
-            font-size: 11rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%;                    
-        }
-
-        &--cta {
-            font-size: 3rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-        }
-        
-        &--img {
-            height: 90vh;
-        }
-    }
-
-    &__motion {
-        
-        &--scroll {
-            display: grid;
-            grid-template-columns: repeat(6, max-content);
-            justify-content: space-between;
-            grid-gap: 2rem;
-        }
-
-        &--overlay {
-            position:absolute;
-            left: 4%;
-            top: 3rem;
-            height: 90vh;
-            width: 96vw;
-            background: linear-gradient(
-                to right,
-                rgba(black, 0.6),
-                rgba(black, 0.6));
-            z-index: 5;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            row-gap: 15%;            
-        }
-
-        &--title {
-            font-size: 11rem;
-            font-family: "Frontage-Outline";
-            opacity: 75%;                    
-        }
-
-        &--cta {
-            font-size: 3rem; 
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 35%;
-        }
-        
-        &--video {
-            height: 90vh;
-        }
-    }
- */
