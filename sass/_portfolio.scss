@@ -1,14 +1,6 @@
 .portfolios {
     background-color: $color-grey-light-1;
     margin-top: 7rem;
-    //padding: 7rem 0;
-
-    //grid-column: 1 /-1;
-
-    //display:grid;
-    //grid-template-rows: repeat(6, 1fr);
-    //grid-gap: 6rem;
-    //justify-content: space-between;
 }
 
 .portfolio {
@@ -76,8 +68,6 @@
                 opacity: 35%;
                 position: relative;
                 padding-top: 1rem;
-                //display: inline-block;
-            
             }
         
             &--titleSM {
@@ -85,8 +75,7 @@
                 font-family: "Frontage-Outline";
                 color: black;
                 opacity: 35%;
-                padding-top: 1rem;
-                
+                padding-top: 1rem;                
             }
             
             &--cta {
@@ -95,18 +84,10 @@
                 text-transform: uppercase;
                 color: black;
                 opacity: 10%;
-                padding: 2.8rem 0 0 6rem;
-                //display: inline-block;
-                
+                padding: 2.8rem 0 0 6rem;               
             }
         }
     
-        &__images {
-            //display: grid;
-            //grid-template-columns: repeat(6, max-content);
-            //justify-content: space-between;
-            //grid-gap: 2rem;
-        }
         &__img {
             height: 75vh;
             flex-wrap: nowrap;

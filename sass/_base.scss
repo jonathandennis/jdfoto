@@ -5,7 +5,7 @@ $color-primary-dark: #B28451;
 $color-secondary: #101d2c;
 
 $color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
+$color-grey-light-2: #dfdede;
 $color-grey-1: rgb(117, 117, 117);
 
 $color-grey-dark-1: #666666;
@@ -41,17 +41,4 @@ body {
     background-color: $color-grey-light-1;
     font-weight: 300;
     line-height: 1.6;
-}
-
-//Grid
-
-.container {
-    /* display: grid;
-    grid-template-rows: 0rem 100vh max-content 50vh 30vh 20vh;
-    position: absolute;
-    
-
-    //& > * {  // use for development for initial layout to be removed
-    //    padding: 40px;
-    //    font-size: 3rem; */
 }

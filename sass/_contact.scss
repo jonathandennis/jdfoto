@@ -1,4 +1,55 @@
 .contact {
-    background-color: $color-grey-dark-2;
-    grid-column: 1 / -1;
+    background-color: $color-grey-light-1;
+    height: 25vh;
+    display: flex;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 15rem;
+        color: $color-grey-dark-2;
+
+        &--title {
+            font-size: 3rem;
+        }
+
+        &--list {
+            display: flex;
+            width: 100%;
+            list-style: none;
+            justify-content: space-around;   
+        }
+
+        &--group {
+            display: flex;
+            align-items: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+
+        &--icon {
+            display: flex;
+            align-items: center;
+
+            margin-right: 1.5rem;
+        }
+
+        &--link {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+
+            &:link,
+            &:visited {
+                color: $color-grey-dark-2;
+            }
+        
+            &:hover,
+            &:active {
+                color: $color-grey-dark-1;
+                transform: scale(105%);
+            }
+        }
+    }
 }

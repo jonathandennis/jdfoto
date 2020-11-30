@@ -1,4 +1,20 @@
 .footer {
-    background-color: $color-primary;
-    grid-column: 1 / -1;
+    background-color: $color-grey-light-1;
+    height: 10vh;
+
+    &__container {
+        margin: 2rem 15rem;
+        color: black;
+        opacity: 85%;
+        font-size: 1.6rem;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 5em;
+    padding: 0;
 }

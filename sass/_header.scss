@@ -1,16 +1,10 @@
-.nav {
-
-    &__header {
-        background-image: url(../img/lge/landscape/vanpac02.jpg);
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        position: relative;
-
-        height: 85vh;
-        //width: 100%;
-        z-index: 1;
-    }
+nav {
+    padding: 2rem;
+    background-image: url(../img/lge/landscape/vanpac02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 85vh;
+    z-index: 1;
 }
