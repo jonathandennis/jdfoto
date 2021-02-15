@@ -1,483 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/camera-outline.png">
-        <!-- <script type='text/javascript' src="./index.js"></script> -->
-        
-        <title>jdfoto</title>
-    </head>
-    <body>
-        <header>
-            <nav class="nav__header">
-                <div class="sticky">
-                    <h2 class="nav__logo">&copy; jdfoto</h2>
-                    <ul class="nav__list">
-                        <div class="dropdown">
-                            <li class="nav__item"><a href="#portfolio" class="nav__link">portfolio</a></li>
-                            <div class="dropdown-content">
-                                <a href="#Landscape">Landscape</a>
-                                <a href="#Still_Life">Still Life</a>
-                                <a href="#Portraits">Portraits</a>
-                                <a href="#Behind_the_Scenes">Behind the Scenes</a>
-                                <a href="#Architecture">Architecture</a>
-                                <a href="#Motion">Motion</a>
-                            </div>
-                        </div>
-                        <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <div class="portfolios" id="portfolio">
-            <section class="portfolio" id="Landscape">
-                <header class="portfolio__header">
-                    <h2 class="portfolio__header--titleSM">Landscape</h2>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel" id="landscapePort">
-                    <script type="text/javascript" src="./index.js"></script>
-                    <noscript>You need to enable JavaScript to view the full site.</noscript>
-                </div>
-            </section>
-            <section class="portfolio" id="Still_Life">
-                <header class="portfolio__header">
-                    <h6 class="portfolio__header--titleSM">Still Life</h6>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel">
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Interview_Handbags.jpg" alt="Handbags, Interview Magazine" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Handbags</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/SnakeBag.jpg" alt="gucci bag" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Gucci Snakeskin bag</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Interview_Watch.jpg" alt="Watch mantage" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Fendi Watch montage</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Technomarine.jpg" alt="Technomarine watch" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Technomarine watch</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/TechnomarineRGO.jpg" alt="Technomarine watches"   class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Technomarine watches</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Magaschoni Bag.jpg" alt="Magaschoni Bag"   class="portfolio__img">
-                        </picture>
-                        <figcaption>Magaschoni Bags Summer ad</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Interview_Perfume.jpg" alt="M/Mink Parfum" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: M/Mink Parfum</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Dior.jpg" alt="Dior Handbag" class="portfolio__img">
-                        </picture>
-                        <figcaption>Baron & Baron, Miss Dior B-Roll</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/cotica02.jpg" alt="Cotica Jewelry" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cotica Jewelry LookBook</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Burberry_18.jpg" alt="Burberry perfume" class="portfolio__img">
-                        </picture>
-                        <figcaption>Interview Magazine: Burberry perfume</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/still/Lexuschassis.jpg" alt="Lexus chassis" class="portfolio__img">
-                        </picture>
-                        <figcaption>Lexus Magazine: Making a race car</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section class="portfolio" id="Portraits">
-                <header class="portfolio__header">
-                    <h6 class="portfolio__header--title"><span>Portraits</span></h6>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel">
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/Mariaface.jpg" alt="Maria" class="portfolio__img">
-                        </picture>
-                        <figcaption>Maria Prospect Park, Brooklyn</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/SummerROakes.jpg" alt="Summer Raine Oakes" class="portfolio__img">
-                        </picture>
-                        <figcaption>ECO-LA Magazine: cover</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/Stephanie_Chambers.jpg" alt="Stephanie Chambers, NYC" class="portfolio__img">
-                        </picture>
-                        <figcaption>Artists portrait series: Stephanie Chambers, portrait of an actor.</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait_artist/Elizabeth_Forest02.jpg" alt="Elizabeth Forrest, Queens NY" class="portfolio__img">
-                        </picture>
-                        <figcaption>Artists portrait series: Elizabeth Forest, portrait of a poet.</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait_artist/BennettAtWindow.jpg" alt="Bennet Webster, Brooklyn NY" class="portfolio__img">
-                        </picture>
-                        <figcaption>Artists portrait series: Bennet Webster, portrait of a writer.</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/ChrisBW.jpg" alt="Chris the actor" class="portfolio__img">
-                        </picture>
-                        <figcaption>Artist Portrait series: Chris, Portrait of an actor.</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait_artist/PaulSeftel01.jpg" alt="Paul Seftel, Williamsburg BK" class="portfolio__img">
-                        </picture>
-                        <figcaption>Artists portrait series: Paul Seftel, portrait of a painter.</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/melshawn.jpg" alt="Melshawn" class="portfolio__img">
-                        </picture>
-                        <figcaption>Street athletes series: Melshawn</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/SMarbury_BW.jpg" alt="Stephon Marbury" class="portfolio__img">
-                        </picture>
-                        <figcaption>Fashion Editorial with Stephon Marbury: Set Magazine</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/BallroomR.jpg" alt="Ballroom Rockstar editorial" class="portfolio__img">
-                        </picture>
-                        <figcaption>Fashion Editorial: Ballroom Rockstar Magazine</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/cmwcblkport_0046.jpg" alt="Cycle Messenger World Championships Edmonton, Canada" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cycle Messenger World Championships</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/Scan_0066.jpg" alt="Cycle Messenger World Championships Edmonton, Canada" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cycle Messenger World Championships</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/cmwcblkport_0064.jpg" alt="Cycle Messenger World Championships Edmonton, Canada" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cycle Messenger World Championships</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/damian.jpg" alt="Portrait of Damian" class="portfolio__img">
-                        </picture>
-                        <figcaption>Portrait of a colleague: Damian</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait_artist/In_Studio_Silver_129.jpg" alt="Shelly Silver" class="portfolio__img">
-                        </picture>
-                        <figcaption>Art in America Magazine: Shelly Silver</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/Joseph_Harrington_tear.jpg" alt="Joseph Harrington portrait for Cincinnati Magazine" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cincinnati Magazine: Joseph Harrington</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/portrait/Bill_Hemmer_tear.jpg" alt="Bill Hemmer portrait for Cincinnati Magazine" class="portfolio__img">
-                        </picture>
-                        <figcaption>Cincinnati Magazine: Bill Hemmer</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section class="portfolio" id="Behind_the_Scenes">
-                <header class="portfolio__header">
-                    <h6 class="portfolio__header--titleSM">Behind the Scenes</h6>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel">
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/IMG_0675.jpg" alt="Swarovski BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Swarovski print and video campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/IMG_2253.jpg" alt="Swarovski BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Swarovski print and video campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_1941.jpg" alt="Swarovski BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Versace print and video campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_2576.jpg" alt="Dior BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Dior Handbags print campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_2649.jpg" alt="Dior BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Dior Handbags print campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_7761.jpg" alt="Georgio Armani BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Georgio Armani Cosmetics print campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_7856.jpg" alt="Georgio Armani BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Georgio Armani Cosmetics print campaign. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_4364.jpg" alt="Fashion Editorial BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Fashion editorial</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/IMG_2983.jpg" alt="Fashion Editorial BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Fashion editorial</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_4511.jpg" alt="Fashion Editorial BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Fashion editorial</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/IMG_2812.jpg" alt="Fashion Editorial BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Fashion editorial</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_3564.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_1964.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_8172.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_8523.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_9559.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/bts/DSC_4107.jpg" alt="Harry Winston BTS" class="portfolio__img">
-                        </picture>
-                        <figcaption>Behind the Scenes: Harry Winston, Inc. Baron & Baron ad agency</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section class="portfolio" id="Architecture">
-                <header class="portfolio__header">
-                    <h6 class="portfolio__header--titleSM">Architecture</h6>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel">
-                    <figure>
-                        <picture>
-                            <img src="img/lge/architecture/Crescent.jpg" alt="Crescent Queens, NY" class="portfolio__img">
-                        </picture>
-                        <figcaption>Lobby Crescent St. Long Island City Queens, NY: Morgan Stanley</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/architecture/mag04.jpg" alt="Magizan refurb" class="portfolio__img">
-                        </picture>
-                        <figcaption>Completed construction. Designed by Magizan S.A</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/architecture/mag02.jpg" alt="Magizan refurb" class="portfolio__img">
-                        </picture>
-                        <figcaption>Completed construction. Designed by Magizan S.A</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <img src="img/lge/architecture/mag03.jpg" alt="Magizan refurb" class="portfolio__img">
-                        </picture>
-                        <figcaption>Completed construction. Designed by Magizan S.A</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section class="portfolio" id="Motion">
-                <header class="portfolio__header">
-                    <h2 class="portfolio__header--title">Motion</h2>
-                    <p class="portfolio__header--cta">&lt;&lt; Swipe to view images &gt;&gt;</p>
-                </header>
-                <div class="portfolio__carousel">
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/phil_story_pan-in.webm" type="video/webm">
-                                Your browser is not supported!,
-                        </video>
-                        <figcaption>Arial Footage for Criterion Collection's restoration of: A Philadelphia Story</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/phil_story_decent.webm" type="video/webm">
-                            Your browser is not supported!,
-                        </video>
-                        <figcaption>Arial Footage for Criterion Collection's restoration of: A Philadelphia Story</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/bruno_gowanus.mp4" type="video/mp4">
-                            Your browser is not supported!
-                        </video>
-                        <figcaption>Bruno Truck Sales</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/1205_man.mp4" type="video/mp4">
-                            Your browser is not supported!
-                        </video>
-                        <figcaption>Arial footage for Solar Energy Systems</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/bny_time.webm" type="video/webm">
-                            Your browser is not supported!,
-                        </video>
-                        <figcaption>Timelapse footage for Solar Energy Systems</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/redhook.mp4" type="video/mp4">
-                            Your browser is not supported!
-                        </video>
-                        <figcaption>Red Hook, Brooklyn</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/LaLinleuTL.mp4" type="video/mp4">
-                            Your browser is not supported!
-                        </video>
-                        <figcaption>An hour on La Linleu Timelapse</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="portfolio__video" controls muted loop>
-                            <source src="img/lge/motion/YLB_Meteo.mp4" type="video/mp4">
-                            Your browser is not supported!
-                        </video>
-                        <figcaption>Timelapse of weather on Le Suchet</figcaption>
-                    </figure>
-                </div>            
-            </section>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/camera-outline.png" />
+    <!-- <script type="text/javascript" src="./index.js"></script> -->
+
+    <title>jdfoto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav__header">
+        <div class="sticky">
+          <h2 class="nav__logo">&copy; jdfoto</h2>
+          <ul class="nav__list">
+            <div class="dropdown">
+              <li class="nav__item">
+                <a href="#portfolio" class="nav__link">portfolio</a>
+              </li>
+              <div class="dropdown-content">
+                <a href="#Landscape">Landscape</a>
+                <a href="#Still_Life">Still Life</a>
+                <a href="#Portraits">Portraits</a>
+                <a href="#Behind_the_Scenes">Behind the Scenes</a>
+                <a href="#Architecture">Architecture</a>
+                <a href="#Motion">Motion</a>
+              </div>
+            </div>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">about</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">contact</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </header>
 
-        <section class="about" id="about">
-            <!-- <h1 class="about__title">About:</h1> -->
-            <div class="about__container">
-                <picture>
-                    <img class="about__container--img" src="img/lge/portrait/cmwcbar.jpg" alt="cmwc at the bar">
-                </picture>
-                <div class="about__container--text">
-                    <p class="about__container--para">
-                        Hey! Thanks for stopping by. I hope you enjoyed my photos as much as I enjoyed taking them. I have recently moved to, and now based out of Lausanne, Switerland. Please see my contact info below.
-                    </p>
-                    <p class="about__container--para">
-                        I have over 15 years experience in commercial and editorial photography out of NYC. I enjoy all the challenges it presents and am open to a wide variety of work.
-                    </p>
-                </div>
-            </div>
-        </section>
+    <div class="portfolios" id="portfolio">
+      <section class="portfolio" id="Landscape">
+        <header class="portfolio__header">
+          <h2 class="portfolio__header--titleSM">Landscape</h2>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="landscapePort"></div>
+      </section>
+      <section class="portfolio" id="Still_Life">
+        <header class="portfolio__header">
+          <h6 class="portfolio__header--titleSM">Still Life</h6>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="stillLifePort"></div>
+      </section>
+      <section class="portfolio" id="Portraits">
+        <header class="portfolio__header">
+          <h6 class="portfolio__header--title"><span>Portraits</span></h6>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="portraitsPort"></div>
+      </section>
+      <section class="portfolio" id="Behind_the_Scenes">
+        <header class="portfolio__header">
+          <h6 class="portfolio__header--titleSM">Behind the Scenes</h6>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="btsPort"></div>
+      </section>
+      <section class="portfolio" id="Architecture">
+        <header class="portfolio__header">
+          <h6 class="portfolio__header--titleSM">Architecture</h6>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="architecturePort"></div>
+      </section>
+      <section class="portfolio" id="Motion">
+        <header class="portfolio__header">
+          <h2 class="portfolio__header--title">Motion</h2>
+          <p class="portfolio__header--cta">
+            &lt;&lt; Swipe to view images &gt;&gt;
+          </p>
+        </header>
+        <div class="portfolio__carousel" id="motionPort"></div>
+      </section>
+    </div>
 
-        <section class="contact"><a id="contact"></a>
-            <div class="contact__container">
-                <h2 class="contact__container--title">Contact:</h2>
-                <ul class="contact__container--list">
-                    <div class="contact__container--group">
-                        <li><img class="contact__container--icon" src="./vendors/icons/phone.png" /></li><p class="contact__container--text">+41 76 217 29 69</p>           
-                    </div>
-                    <div class="contact__container--group">
-                        <li><img class="contact__container--icon" src="./vendors/icons/mail.png" /></li><p class="contact__container--text">jondennisphoto@gmail.com</p>
-                    </div>
-                    <div class="contact__container--group">
-                        <li><a class="contact__container--link" href="https://www.linkedin.com/in/4-jonathan-dennis/"><img src="./vendors/icons/linkedin.png" />&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn Profile</a></li>
-                    </div>
-                </ul>
-            </div>
-        </section>
+    <section class="about" id="about">
+      <!-- <h1 class="about__title">About:</h1> -->
+      <div class="about__container">
+        <picture>
+          <img
+            class="about__container--img"
+            src="img/lge/portrait/cmwcbar.jpg"
+            alt="cmwc at the bar"
+          />
+        </picture>
+        <div class="about__container--text">
+          <p class="about__container--para">
+            Hey! Thanks for stopping by. I hope you enjoyed my photos as much as
+            I enjoyed taking them. I have recently moved to, and now based out
+            of Lausanne, Switerland. Please see my contact info below.
+          </p>
+          <p class="about__container--para">
+            I have over 15 years experience in commercial and editorial
+            photography out of NYC. I enjoy all the challenges it presents and
+            am open to a wide variety of work.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <footer class="footer">
-            <hr />
-            <div class="footer__container">
-                <p>&copy; Jonathan Dennis Photography</p>
-            </div>           
-        </footer>
-    </body>
+    <section class="contact">
+      <a id="contact"></a>
+      <div class="contact__container">
+        <h2 class="contact__container--title">Contact:</h2>
+        <ul class="contact__container--list">
+          <div class="contact__container--group">
+            <li>
+              <img
+                class="contact__container--icon"
+                src="./vendors/icons/phone.png"
+              />
+            </li>
+            <p class="contact__container--text">+41 76 217 29 69</p>
+          </div>
+          <div class="contact__container--group">
+            <li>
+              <img
+                class="contact__container--icon"
+                src="./vendors/icons/mail.png"
+              />
+            </li>
+            <p class="contact__container--text">jondennisphoto@gmail.com</p>
+          </div>
+          <div class="contact__container--group">
+            <li>
+              <a
+                class="contact__container--link"
+                href="https://www.linkedin.com/in/4-jonathan-dennis/"
+                ><img
+                  src="./vendors/icons/linkedin.png"
+                />&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn Profile</a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <hr />
+      <div class="footer__container">
+        <p>&copy; Jonathan Dennis Photography</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./index.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
 </html>
